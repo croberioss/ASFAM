@@ -1,0 +1,1 @@
+<h1 aling="center">Esqueleto para sites tipo restaurante</h1>
