@@ -7,7 +7,7 @@ body {
 
 .logo-asfam{
     margin-left: 1%;
-    width: 4%;
+    width: 2%;
 }
 
 .navbar {
@@ -71,5 +71,9 @@ body {
 @media (max-width:767px) {
     .carousel-item {
         height: 280px;
+    }
+
+    .logo-asfam{
+        width: 50px;
     }
 }
