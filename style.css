@@ -5,13 +5,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo-asfam{
+    margin-left: 1%;
+    width: 4%;
+}
+
 .navbar {
-    background-color: #e15f41;
+    background-color: #063970;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: white;
-    color: #e15f41;
+    color: #063970;
 }
 
 #cabecalho .nav .nav-link,
@@ -21,11 +26,11 @@ body {
 }
 
 .section-title{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-title span{
-    color: #e15f41;
+    color: #063970;
 }
 
 .navbar-toggler{
@@ -33,20 +38,20 @@ body {
 }
 
 #about, #cardapio{
-    background-color: #ffeae6;
+    background-color: #e6edff;
 }
 
 .text-colored{
-    color: #e15f41;
+    color: #063970;
 }
 
 .nav-cardapio .nav-link.active{
-    background-color: #e15f41;
+    background-color: #063970;
     color: white;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #063970;
 }
 
 .social-links li{
@@ -59,7 +64,7 @@ body {
 }
 
 #contato button{
-    background-color: #e15f41;
+    background-color: #063970;
     color: white;
 }
 
