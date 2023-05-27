@@ -6,8 +6,7 @@ body {
 }
 
 .logo-asfam{
-    margin-left: 1%;
-    width: 2%;
+    width: 10%;
 }
 
 .navbar {
@@ -30,6 +29,10 @@ body {
 }
 
 .section-title span{
+    color: #063970;
+}
+
+span{
     color: #063970;
 }
 
@@ -68,12 +71,13 @@ body {
     color: white;
 }
 
+
 @media (max-width:767px) {
     .carousel-item {
         height: 280px;
     }
 
     .logo-asfam{
-        width: 50px;
+        width: 90px;
     }
 }
