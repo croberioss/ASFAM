@@ -1,316 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASFAM</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ASFAM — Associação dos Filhos e Amigos de Marí</title>
+  <meta name="description" content="A ASFAM promove educação, cultura e oportunidades em Mari-PB por meio de projetos, cursos e ações comunitárias." />
 
-    <!-- <link rel="stylesheet" href="libs/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="libs/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    
-    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
-        <div class="container">
-                <!-- <h1 class="navbar-brand section-title m-0">ASFAM Mari</h1> -->
-                <img class="logo-asfam" src="images/Logo Asfam sf.png" alt="">
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegar">
-                <span class="navbar-toggler-icon" ></span>
-            </button>
-            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegar">
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link " href="#about">
-                            <i class="bi bi-house-door me-1"></i>
-                            Sobre
-                        </a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#eventos">
-                            <i class="bi bi-calendar-check me-1"></i>
-                            Projetos
-                        </a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#cardapio">
-                            <i class="bi bi-card-text me-1"></i>
-                            Ações
-                        </a>
-                    </li>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#contato">
-                            <i class="bi bi-person-fill"></i>
-                            Contato
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+
+<header class="sticky-top bg-white border-bottom">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#topo">
+        <img src="images/Logo Asfam site R.png" class="logo" alt="Logo da ASFAM">
+        <span class="fw-bold">ASFAM</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acoes">Ações</a></li>
+          <li class="nav-item"><a class="nav-link" href="#transparencia">Transparência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <div class="ms-lg-3 d-grid d-lg-block">
+          <a class="btn btn-primary" href="#contato">Quero participar</a>
         </div>
-    </header>
+      </div>
+    </div>
+  </nav>
+</header>
 
-    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="about">
-            <div class="pt-5 pb-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <img src="images/Agrupadas.jpg" class="d-block w-100 rounded" alt="imagem do restaurante">
-                        </div>
-                        <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title">Sobre <span>a ASFAM</span></h2>
-                            <p>A Associação dos Filhos e Amigos de Marí - ASFAM, fundada em 03 de novembro de 2018, tem por finalidade apoiar e orientar os jovens e adultos do município de Mari-PB, oferecendo oportunidades, meios e condições para a educação de base, habilitação profissional, recreação, arte, melhoria dos padrões culturais e ascensão social, por meio da promoção de cursos de capacitação, orientação e desenvolvimento de habilidades, além da realização de eventos sociais que despertem o interesse e fomentem iniciativas nessas áreas, atuando como veiculo de divulgação das capacidades individuais e coletivas. Promover o convívio e a fraternidade humana, o sentido e a ação comunitária, a participação e a integração social, atuando como multiplicadora de ideias e intermediadora de ações de interesse da sociedade local, buscando auxiliar e atuar conjuntamente nesses assuntos assistindo, promovendo e valorizando as pessoas menos favorecidas com ações de assistência social.</p>
-                            <!-- <h3 class="section-title">Sobre <span>o projeto</span></h3> -->
-                            <ul>
-                                <li><strong><span>Missão</span></strong></li>
-                                <li><strong><span>Visão</span></strong></li>
-                                <li><strong><span>Valores</span></strong></li>
-                            </ul>
-                            <p><span>Missão:</span> Transferir conhecimento para jovens e adultos</p>
-                            <p><span>Visão:</span> Ser referência em incentivos do conhecimento para jovens e adultos nos próximos 05 anos.</p>
-                            <p><span>Valores:</span> Promover, através da orientação técnica, esporte, cultura e lazer, oportunidades de crescimento social, emocional e cultural da nossa população.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="eventos" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center">Todos os nossos <span>Projetos</span></h2>
-                </div>
-                <div class="row mt-4">
-                    <aside class="col-md-2"></aside>
-                    <div class="col-md-4">
-                        <img src="images/WhatsApp Image 2023-05-27 at 16.24.40.jpeg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class=" text-colored section-title fs-4">
-                            <!-- <i class="bi bi-calendar-heart-fill"></i> -->
-                            Cursos Profissionalizantes</h3>
-                        <p>Em parceria com o ParaíbaTEC, a ASFAM estará em breve realizando as inscrições para os cursos profissionalizantes totalmente GRÁTIS, com turmas de no mínimo 20 alunos em 5 cursos. São eles:</p>
+<section id="topo" class="hero">
+  <div class="container py-5">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <p class="text-uppercase small text-muted mb-2">Associação dos Filhos e Amigos de Marí — Mari/PB</p>
+        <h1 class="display-5 fw-bold mb-3">Educação, cultura e oportunidades para Mari-PB.</h1>
+        <p class="lead mb-4">
+          A ASFAM atua com projetos e ações comunitárias para apoiar jovens e adultos, com foco em inclusão social,
+          formação e valorização da comunidade.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary btn-lg" href="#contato">Quero participar</a>
+          <a class="btn btn-outline-primary btn-lg" href="#transparencia">Quero apoiar</a>
+        </div>
 
-                            <p>- Desenvolvedor de aplicativos para celular.</p>
-                            <p>- Atendente de farmácia.</p>
-                            <p>- Operador de caixa.</p>
-                            <p>- Inglês básico.</p>
-                            <p>- Assistente administrativo.</p>
-                            
-                            <p>É uma grande oportunidade de inserção no mercado de trabalho.</p>
-                            
-                            <p>Então fiquem atentos às nossas redes sociais e não percam mais essa grande iniciativa que a ASFAM traz para Mari.</p>
-                    </div>
-                    <!-- <aside class="col-md-2"></aside> -->
-                    <div class="col-md-4">
-                        <img src="images/Feed.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class=" text-colored section-title fs-4">
-                            <!-- <i class="bi bi-arrow-through-heart-fill"></i> -->
-                            Clube de <span>Leitura</span></h3>
-                        <p>Surgido em São Paulo, hoje o Clube de Leitura – LEIA MULHERES está espalhado por mais de 100 cidades do Brasil e de outros países, com cerca de 400 mediadores envolvidos. Na Paraíba, MARI será a segunda cidade a receber essa iniciativa, que antes apenas Campina Grande contava com o projeto no estado.
-                            A ASFAM (@asfammari) tem a honra de trazer para nossa cidade esse projeto, que terá como mediadora a Professora e Doutora em Agronomia, ANDREA SANTOS (@prof.andreiasantos), filha de Mari, traz consigo a experiência e a vivência acadêmica para dá vida ao LEIA MULHERES MARI. Seu lançamento se dará no próximo sábado (27/maio) as 18:30h, e ocorrerá no Auditório RITA MARIA DE SOUSA, que fica na sede da ASFAM.
-                            Serão sempre encontros mensais abordando obras de escritoras locais e regionais, tendo nesse primeiro momento, a escritora mariense ANINHA FERREIRA (@aninhaferreira.13) com a obra "RELICÁRIO" abordada nesses encontros.
-                            Presidente
-                            CLECIO SOUSA (@clecio.asousa)</p>
-                    </div>
-                    <aside class="col-md-2"></aside>
-                </div>
-            </div>
-        </section>
-        <section id="cardapio" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center">Todos as nossas <span>Ações</span></h2>
-                </div>
-                <div id="carousel-exemple" class="carousel carousel-fade slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div data-bs-interval="1500" class="carousel-item active">
-                            <img class="d-block w-100" src="images/Slide Ações (1).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (2).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (3).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (4).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (5).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (6).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (7).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (8).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (9).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (10).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (11).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (12).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (13).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (14).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (15).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (16).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (17).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (18).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (19).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (20).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (21).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (22).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (23).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (24).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (25).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (26).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (27).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (28).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (29).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações (30).svg" alt="">
-                        </div>
-                        <div data-bs-interval="1500" class="carousel-item">
-                            <img class="d-block w-100" src="images/Slide Ações.svg" alt="">
-                        </div>
+        <div class="mt-4 d-flex flex-wrap gap-3">
+          <div class="pill">
+            <div class="fw-semibold">Contato</div>
+            <div class="small text-muted">(83) 98217-0201 • asfam.pb@outlook.com</div>
+          </div>
+          <div class="pill">
+            <div class="fw-semibold">Sede</div>
+            <div class="small text-muted">Rua Antônio de Luna Freire, 735 — Centro — Mari/PB</div>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-lg-5">
+        <div class="card shadow-sm border-0 overflow-hidden">
+          <img src="images/Agrupadas.jpg" class="img-fluid" alt="Atividades da ASFAM">
+        </div>
+        <p class="small text-muted mt-2 mb-0">Dica: use fotos reais dos projetos (eventos, cursos, treinos). Isso aumenta a credibilidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-                    </div>
-                    <button data-bs-target="#carousel-exemple" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" data-bs-target="#carousel-exemple" data-bs-slide="next" type="button" >
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                    <!-- <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-exemple" class="active" data-bs-slide-to="0"></button>
-                        <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="2"></button>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-        <section id="contato" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center">Fale <span>conosco</span></h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-7 mb-5">
-                        <form>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
-                                <input class="form-control" type="text" id="nome" name="nome" placeholder="Seu nome" >
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold text-colored" for="email">Seu email</label>
-                                <input class="form-control" type="email" id="email" name="email" placeholder="Seu email">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone (opicional)</label>
-                                <input class="form-control" type="text" id="telefone">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold text-colored" for="mensagem">Suas sugestões</label>
-                                <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                            </div>
-                            <button class="btn fw-bold" type="submit">Enviar</button>
-                        </form>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="row">
-                            <h3 class="section-title fs-4 text-colored">
-                                <i class="bi bi-hand-thumbs-up-fill"></i>
-                                Redes sociais</h3>
-                            <ul class="social-links">
-                                <li class="fs-5">
-                                    <a href="https://www.facebook.com/asfam.mari?mibextid=LQQJ4d">
-                                        <i class="bi bi-facebook text-colored"></i>
-                                    </a>
-                                </li>
-                                <li class="fs-5">
-                                    <a href="https://instagram.com/asfammari?igshid=YmMyMTA2M2Y=">
-                                        <i class="bi bi-instagram text-colored ms-1 me-1" ></i>
-                                    </a>
-                                </li>
-                                <!-- <li class="fs-5">
-                                    <a href="">
-                                        <i class="bi bi-whatsapp text-colored"></i>
-                                    </a>
-                                </li> -->
-                            </ul>
-                        </div>
-                        <div class="row mt-4">
-                            <h3 class="section-title fs-4 text-colored">
-                                <i class="bi bi-cursor-fill"></i>
-                                Endereço</h3>
-                            <p>
-                                Rua Antonio de Luna Freire, 735 - Centro - Mari/PB
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="py-4 bg-light border-top border-bottom">
+  <div class="container">
+    <div class="row g-3 text-center">
+      <div class="col-md-4">
+        <div class="stat">
+          <div class="h2 mb-0">2018</div>
+          <div class="text-muted">ano de fundação</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat">
+          <div class="h2 mb-0">+0</div>
+          <div class="text-muted">pessoas impactadas (atualize)</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat">
+          <div class="h2 mb-0">+0</div>
+          <div class="text-muted">ações realizadas (atualize)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-7">
+        <h2 class="section-title">Sobre a ASFAM</h2>
+        <p>
+          A Associação dos Filhos e Amigos de Marí (ASFAM) desenvolve projetos em Mari-PB voltados à cultura, educação,
+          lazer e esporte, especialmente para comunidades em situação de vulnerabilidade.
+        </p>
+        <p class="mb-0">
+          O trabalho prioriza ações com impacto social direto e acompanhamento dos participantes, fortalecendo a inclusão
+          e a permanência em atividades educativas e comunitárias.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <div class="card shadow-sm border-0">
+          <div class="card-body">
+            <h3 class="h5 fw-bold mb-3">Direcionadores</h3>
+            <ul class="mb-0">
+              <li><b>Missão:</b> transferir conhecimento para jovens e adultos.</li>
+              <li><b>Visão:</b> ser referência em incentivo ao conhecimento nos próximos 5 anos.</li>
+              <li><b>Valores:</b> educação, cultura, fraternidade, participação comunitária e inclusão.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos" class="py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end flex-wrap gap-2 mb-4">
+      <div>
+        <h2 class="section-title mb-1">Nossos Projetos</h2>
+        <p class="text-muted mb-0">Cursos, cultura e inclusão com foco em impacto local.</p>
+      </div>
+      <a class="btn btn-outline-primary" href="#contato">Quero me inscrever</a>
     </div>
 
-    <script src="libs/bootstrap.bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="libs/jquery.mask.min.js"></script>
-    <script src="libs/jquery.validate.min.js"></script>
-    <script src="libs/messages_pt_BR.min.js"></script>
-    <script src="main.js"></script>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Cursos Profissionalizantes</h3>
+            <p class="text-muted">Em parceria com o ParaíbaTEC, com turmas gratuitas (mín. 20 alunos).</p>
+            <ul class="mb-0">
+              <li>Desenvolvedor de aplicativos</li>
+              <li>Atendente de farmácia</li>
+              <li>Operador de caixa</li>
+              <li>Inglês básico</li>
+              <li>Assistente administrativo</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-white border-0 pt-0">
+            <a class="link-primary fw-semibold" href="#contato">Quero participar →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Projeto Bom de Bola, Bom na Escola</h3>
+            <p class="text-muted mb-2">
+              Inclusão social por meio do futebol de campo para crianças e adolescentes (7 a 17 anos),
+              com estímulo à frequência escolar e acompanhamento multiprofissional.
+            </p>
+            <div class="small">
+              <b>Emenda:</b> <span class="badge text-bg-light">27150023</span> — Termo de Fomento (Ministério do Esporte)
+            </div>
+          </div>
+          <div class="card-footer bg-white border-0 pt-0 d-flex flex-wrap gap-3">
+            <a class="link-primary fw-semibold" target="_blank" rel="noopener"
+               href="https://dd-publico.serpro.gov.br/extensions/transferencias-discricionarias-e-legais/transferencias-discricionarias-e-legais.html?naturezaJuridica=OSC">Ver no painel (SERPRO) →</a>
+            <a class="link-primary fw-semibold" href="#contato">Quero participar →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Clube de Leitura — Leia Mulheres Mari</h3>
+            <p class="text-muted mb-0">Encontros mensais de leitura com foco em escritoras locais e regionais.</p>
+          </div>
+          <div class="card-footer bg-white border-0 pt-0">
+            <a class="link-primary fw-semibold" href="#contato">Quero participar →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="acoes" class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-3">Nossas Ações</h2>
+    <p class="text-muted">Galeria rápida (troque/adicione fotos conforme novas ações).</p>
+
+    <div id="carouselAcoes" class="carousel slide shadow-sm" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slides/slide1.png" class="d-block w-100" alt="Ações ASFAM 1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slides/slide2.png" class="d-block w-100" alt="Ações ASFAM 2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slides/slide3.png" class="d-block w-100" alt="Ações ASFAM 3">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAcoes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselAcoes" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="transparencia" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title mb-3">Transparência e Apoio</h2>
+    <div class="row g-3">
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Emendas e instrumentos</h3>
+            <p class="text-muted mb-2">Link público para consulta (natureza jurídica: OSC).</p>
+            <a class="btn btn-outline-primary" target="_blank" rel="noopener"
+               href="https://dd-publico.serpro.gov.br/extensions/transferencias-discricionarias-e-legais/transferencias-discricionarias-e-legais.html?naturezaJuridica=OSC">
+               Abrir painel do SERPRO
+            </a>
+            <hr>
+            <div class="small">
+              <b>Projeto em destaque:</b> Bom de Bola, Bom na Escola<br>
+              <b>Emenda:</b> 27150023 — Termo de Fomento (Ministério do Esporte).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Como apoiar</h3>
+            <p class="text-muted">Se você tiver PIX/CNPJ e um texto curto de prestação de contas, eu adiciono aqui.</p>
+            <a class="btn btn-primary w-100" href="#contato">Quero apoiar / ser parceiro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-4">Fale conosco</h2>
+
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <form id="form-contato" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="nome">Seu nome*</label>
+              <input class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">Seu e-mail*</label>
+              <input class="form-control" id="email" name="email" type="email" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="telefone">Telefone (opcional)</label>
+              <input class="form-control" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="mensagem">Mensagem*</label>
+              <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <div class="col-12 d-flex flex-wrap gap-2">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+              <a class="btn btn-outline-primary" target="_blank" rel="noopener"
+                 href="https://wa.me/5583982170201?text=Ol%C3%A1%20ASFAM!%20Quero%20participar%20ou%20apoiar%20um%20projeto.">
+                WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div id="form-feedback" class="alert alert-success mt-3 d-none" role="alert">
+            Mensagem validada. Para resposta mais rápida, envie também no WhatsApp.
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 fw-bold">Dados</h3>
+            <ul class="mb-3">
+              <li><b>E-mail:</b> asfam.pb@outlook.com</li>
+              <li><b>Telefone:</b> (83) 98217-0201</li>
+            </ul>
+            <p class="mb-0"><b>Endereço:</b><br>Rua Antônio de Luna Freire, 735 — Centro — Mari/PB</p>
+            <p class="small text-muted mt-3 mb-0">Se você me mandar Instagram/Facebook oficiais, eu coloco aqui com botões.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="py-4 bg-dark text-white">
+  <div class="container d-flex flex-wrap justify-content-between gap-2 small">
+    <div>© ASFAM — Associação dos Filhos e Amigos de Marí</div>
+    <div class="opacity-75">Mari/PB</div>
+  </div>
+</footer>
+
+<script src="libs/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery.validate.min.js"></script>
+<script src="libs/jquery.mask.min.js"></script>
+<script src="libs/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
